@@ -14,7 +14,7 @@ int Bellman_ford(int start){
             int weight = get<2>(edge[j]);
             if(dis[now] != INT_MAX && dis[next] > dis[now] + weight){
                 dis[next] = dis[now] + weight;
-                if(dis[next] < -100000000) return 1;
+                if(dis[next] < -100000000) return 1; // bellman_ford 는 무한대로 내려갈때 값이 너무 작아질 수 있으므로 해둔 장치 (나올수 있는 가장 작은 값 = -6000만)
                 if(i == N) return 1;
             }
         }
