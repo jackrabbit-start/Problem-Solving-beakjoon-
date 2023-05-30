@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/KH/Desktop/PS/14725",
-      "program": "c:/Users/KH/Desktop/PS/14725/build/Debug/outDebug",
+      "cwd": "c:/Users/KH/Desktop/PS/1671",
+      "program": "c:/Users/KH/Desktop/PS/1671/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
